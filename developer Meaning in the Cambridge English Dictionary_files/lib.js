@@ -1,0 +1,10 @@
+function plpush(p){var i=new Image();var u='//c.t.dps-reach.com/img/__t.gif?';
+ p['_ssize']=screen.width + 'x' + screen.height;
+ p['_ref']=document.referrer;
+ p['_url']=document.location;
+ p['_lang']=window.navigator.userLanguage||window.navigator.language;
+ p['_ua']=navigator.userAgent;
+ p['_con']=navigator.cookieEnabled;
+ p['_pl_p']=window._pl_p||window.pl_p||"";
+ for(k in p){u+=(k+'='+encodeURIComponent(p[k])+'&');}i.src=u;
+}_ddtag.cmd();delete _ddtag;
